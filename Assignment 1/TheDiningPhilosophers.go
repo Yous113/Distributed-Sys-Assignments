@@ -17,7 +17,7 @@ type Philosopher struct {
 func (p Philosopher) dine(wg *sync.WaitGroup) {
 	// Notify the WaitGroup that this goroutine is done when the function returns
 	defer wg.Done()
-	for i := 0; i < 5; i++ { // Each philosopher eats 100 times (can be any number)
+	for {
 		p.think()
 		p.eat()
 	}
@@ -31,7 +31,7 @@ func fork(forkChan chan bool) {
 }
 
 func (p Philosopher) think() {
-	//fmt.Printf("Philosopher %d is thinking...\n", p.id)
+	fmt.Printf("Philosopher %d is thinking...\n", p.id)
 	time.Sleep(time.Second)
 }
 
