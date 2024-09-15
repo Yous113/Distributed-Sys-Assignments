@@ -38,19 +38,17 @@ func (p Philosopher) think() {
 func (p Philosopher) eat() {
 	// To avoid deadlock
 	if p.id%2 == 0 {
-		p.leftFork <- true
-		p.rightFork <- true
+		p.leftFork <- false
+		p.rightFork <- false
 	} else {
 		p.rightFork <- true
 		p.leftFork <- true
 	}
 
 	fmt.Printf("Philosopher %d is eating...\n", p.id)
+	time.Sleep(time.Second)
 	go fork(p.leftFork)
 	go fork(p.rightFork)
-
-	<-p.leftFork
-	<-p.rightFork
 }
 
 func main() {
@@ -70,7 +68,8 @@ func main() {
 		}
 		wg.Add(1)
 		go philosophers[i].dine(&wg)
-	}
 
+	}
 	wg.Wait()
+
 }
