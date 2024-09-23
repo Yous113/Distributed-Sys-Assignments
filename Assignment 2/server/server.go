@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io"
+	"math/rand"
 	"net"
 	"strconv"
 	"strings"
@@ -13,8 +14,7 @@ func main() {
 }
 
 func server() {
-	seq := 300
-
+	RandomNumber2 := rand.Intn(1000)
 	// Listen on a TCP port
 	ln, err := net.Listen("tcp", ":8080")
 	if err != nil {
@@ -30,7 +30,7 @@ func server() {
 			fmt.Println("Error accepting:", err)
 			continue
 		}
-		go handleConnection(conn, seq) // Handle the connection in a new goroutine
+		go handleConnection(conn, RandomNumber2) // Handle the connection in a new goroutine
 	}
 }
 

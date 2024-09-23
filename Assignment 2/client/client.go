@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io"
+	"math/rand"
 	"net"
 	"strconv"
 	"strings"
@@ -13,8 +14,9 @@ func main() {
 }
 
 func client() {
-	seq := 100
-	stringC := strconv.Itoa(seq)
+
+	RandomNumber := rand.Intn(1000)
+	stringC := strconv.Itoa(RandomNumber)
 
 	ar := []string{"SYN", stringC}
 	array := strings.Join(ar, " ")
@@ -26,7 +28,7 @@ func client() {
 		return
 	}
 
-	fmt.Printf("Sending SYN seq %d to server\n", seq)
+	fmt.Printf("Sending SYN seq %d to server\n", RandomNumber)
 	conn.Write([]byte(array))
 
 	// Read data from the server
@@ -46,8 +48,8 @@ func client() {
 		numberaACK := slice[1]
 		seqN, _ := strconv.Atoi(numberaACK)
 
-		if seq == seqN-1 {
-			seq++
+		if RandomNumber == seqN-1 {
+			RandomNumber++
 			ack, _ := strconv.Atoi(numberSEQ)
 			fmt.Printf("Received SYN-ACK ack = %s seq = %d from server\n", numberaACK, ack)
 			ack++
