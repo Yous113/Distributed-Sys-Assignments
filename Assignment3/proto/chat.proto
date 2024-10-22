@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package Assignment3;
+
+option go_package = "./proto";
+
+service ChittyChat {
+    rpc PublishMessage(PublishMessageRequest) returns (PublishMessageResponse);
+    rpc JoinChat(JoinChatRequest) returns (JoinChatResponse);
+    rpc LeaveChat(LeaveChatRequest) returns (LeaveChatResponse);
+    rpc Broadcast(stream BroadcastMessageRequest) returns (stream BroadcastMessage);
+}
+
+message PublishMessageRequest {
+    string participantName = 1;
+    string message = 2;
+}
+
+
+message PublishMessageResponse {
+    bool success = 1;
+}
+
+message JoinChatRequest {
+    string participantName = 1;
+}
+
+message JoinChatResponse {
+    bool success = 1;
+    int32 lamportTime = 2;
+}
+
+message LeaveChatRequest {
+    string participantName = 1;
+}
+
+message LeaveChatResponse {
+    bool success = 1;
+    int32 lamportTime = 2;
+}
+
+message BroadcastMessageRequest {
+    string participantName = 1;
+    string message = 2;
+    int32 lamportTime = 3;
+}
+
+message BroadcastMessage {
+    string participantName = 1;
+    string message = 2;
+    int32 lamportTime = 3;
+}

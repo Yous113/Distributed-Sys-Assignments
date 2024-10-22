@@ -1,0 +1,60 @@
+2024/10/22 12:32:13 Joined chat as yous at Lamport time 2
+2024/10/22 12:32:13 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 12:32:14 Joined chat as dennis at Lamport time 4
+2024/10/22 12:32:14 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 12:32:14 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 12:32:24 [Lamport Time 6] You: yous
+2024/10/22 12:32:24 [Lamport Time 7] yous: yous
+2024/10/22 12:32:24 [Lamport Time 6] yous: yous
+2024/10/22 12:36:21 [Lamport Time 8] dennis: Participant dennis left Chitty-Chat at Lamport time 6
+2024/10/22 12:36:24 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:57459->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
+2024/10/22 12:36:42 Joined chat as yous at Lamport time 2
+2024/10/22 12:36:42 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 12:36:43 Joined chat as dennis at Lamport time 4
+2024/10/22 12:36:43 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 12:36:43 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 12:36:49 [Lamport Time 7] dennis: yous
+2024/10/22 12:36:49 [Lamport Time 6] dennis: yous
+2024/10/22 12:36:54 [Lamport Time 8] yous: hej
+2024/10/22 12:36:54 [Lamport Time 8] yous: hej
+2024/10/22 12:39:21 [Lamport Time 9] dennis: Participant dennis left Chitty-Chat at Lamport time 7
+2024/10/22 12:41:24 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:57490->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
+2024/10/22 12:41:34 Failed to join chat: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:50051: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
+2024/10/22 12:46:33 Joined chat as yous at Lamport time 2
+2024/10/22 12:46:33 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 13:00:24 Joined chat as yous at Lamport time 2
+2024/10/22 13:00:24 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 13:00:32 Joined chat as dennis at Lamport time 4
+2024/10/22 13:00:32 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 13:00:32 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 13:00:36 [Lamport Time 7] dennis: h
+2024/10/22 13:00:36 [Lamport Time 6] dennis: h
+2024/10/22 13:00:41 [Lamport Time 8] yous: h
+2024/10/22 13:00:41 [Lamport Time 8] yous: h
+2024/10/22 13:03:24 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:54575->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
+2024/10/22 13:03:24 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:54577->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
+2024/10/22 13:03:55 Joined chat as yous at Lamport time 2
+2024/10/22 13:03:55 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 13:03:59 [Lamport Time 5] yous: kk
+2024/10/22 13:04:09 Joined chat as dennis at Lamport time 5
+2024/10/22 13:04:09 [Lamport Time 6] dennis: Participant dennis joined Chitty-Chat at Lamport time 5
+2024/10/22 13:04:09 [Lamport Time 6] dennis: Participant dennis joined Chitty-Chat at Lamport time 5
+2024/10/22 13:04:21 [Lamport Time 8] dennis: l
+2024/10/22 13:04:21 [Lamport Time 7] dennis: l
+2024/10/22 13:04:56 [Lamport Time 9] yous: k
+2024/10/22 13:04:56 [Lamport Time 9] yous: k
+2024/10/22 13:20:07 [Lamport Time 10] yous: Participant yous left Chitty-Chat at Lamport time 8
+2024/10/22 13:20:28 Joined chat as yous at Lamport time 2
+2024/10/22 13:20:28 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 13:20:33 Joined chat as dennis at Lamport time 4
+2024/10/22 13:20:33 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 13:20:33 [Lamport Time 5] dennis: Participant dennis joined Chitty-Chat at Lamport time 4
+2024/10/22 13:20:34 [Lamport Time 7] dennis: f
+2024/10/22 13:20:34 [Lamport Time 6] dennis: f
+2024/10/22 13:23:47 [Lamport Time 8] yous: Participant yous left Chitty-Chat at Lamport time 6
+2024/10/22 13:23:50 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:61646->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
+2024/10/22 13:25:32 Joined chat as yous at Lamport time 2
+2024/10/22 13:25:32 [Lamport Time 3] yous: Participant yous joined Chitty-Chat at Lamport time 2
+2024/10/22 13:25:35 yous sending message at Lamport Time 4
+2024/10/22 13:25:35 [Lamport Time 5] yous: l
+2024/10/22 13:29:45 Error receiving message: rpc error: code = Unavailable desc = error reading from server: read tcp [::1]:61689->[::1]:50051: wsarecv: En eksisterende forbindelse blev tvangsafbrudt af en ekstern vært.
