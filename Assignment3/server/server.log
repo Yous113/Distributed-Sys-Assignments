@@ -22,3 +22,14 @@
 2024/10/22 13:24:12 Chitty-Chat server is running on port 50051...
 2024/10/22 13:25:32 Participant yous joined at Lamport time 1
 2024/10/22 13:25:35 Received message at Lamport time 3 from yous l
+2024/10/22 15:11:15 Chitty-Chat server is running on port 50051...
+2024/10/22 15:11:15 Participant yous joined at Lamport time 1
+2024/10/22 15:11:21 Received message at Lamport time 3 from yous l
+2024/10/22 15:11:26 Received message at Lamport time 4 from yous l
+2024/10/28 14:46:19 Chitty-Chat server is running on port 50051...
+2024/10/28 14:47:03 Participant yous joined at Lamport time 1
+2024/10/28 14:47:13 Participant denw joined at Lamport time 3
+2024/10/28 14:48:02 Received message at Lamport time 5 from yous l
+2024/10/28 14:48:08 Received message at Lamport time 6 from denw l
+2024/10/28 14:48:10 Received message at Lamport time 7 from denw W
+2024/10/28 14:48:13 Received message at Lamport time 8 from yous W
