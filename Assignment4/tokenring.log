@@ -1,0 +1,37 @@
+2024/11/08 18:50:13 Node 1 listening at localhost:5001
+2024/11/08 18:50:14 Node 2 listening at localhost:5002
+2024/11/08 18:50:15 Node 3 listening at localhost:5003
+2024/11/08 18:50:21 Node 2 requesting token
+2024/11/08 18:50:23 Node 3 requesting token
+2024/11/08 18:50:24 Node 1 requesting token
+2024/11/08 18:50:24 Node 1 entering Critical Section
+2024/11/08 18:50:26 Node 1 exiting Critical Section
+2024/11/08 18:50:26 Node 1 passing token to localhost:5002
+2024/11/08 18:50:26 Node 2 received Token
+2024/11/08 18:50:26 Node 2 entering Critical Section
+2024/11/08 18:50:28 Node 2 exiting Critical Section
+2024/11/08 18:50:28 Node 2 passing token to localhost:5003
+2024/11/08 18:50:28 Node 3 received Token
+2024/11/08 18:50:28 Node 3 entering Critical Section
+2024/11/08 18:50:28 Node 2 requesting token
+2024/11/08 18:50:30 Node 3 exiting Critical Section
+2024/11/08 18:50:30 Node 3 passing token to localhost:5001
+2024/11/08 18:50:30 Node 1 received Token
+2024/11/08 18:50:31 Node 3 requesting token
+2024/11/08 18:50:35 Node 2 requesting token
+2024/11/08 18:50:37 Node 1 requesting token
+2024/11/08 18:50:37 Node 1 entering Critical Section
+2024/11/08 18:50:39 Node 1 exiting Critical Section
+2024/11/08 18:50:39 Node 1 passing token to localhost:5002
+2024/11/08 18:50:39 Node 2 received Token
+2024/11/08 18:50:39 Node 2 entering Critical Section
+2024/11/08 18:50:39 Node 3 requesting token
+2024/11/08 18:50:41 Node 2 exiting Critical Section
+2024/11/08 18:50:41 Node 2 passing token to localhost:5003
+2024/11/08 18:50:41 Node 3 received Token
+2024/11/08 18:50:41 Node 3 entering Critical Section
+2024/11/08 18:50:42 Node 2 requesting token
+2024/11/08 18:50:43 Node 3 exiting Critical Section
+2024/11/08 18:50:43 Node 3 passing token to localhost:5001
+2024/11/08 18:50:43 Node 1 received Token
+2024/11/08 18:50:47 Node 3 requesting token

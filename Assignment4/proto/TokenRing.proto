@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package Assignment4;
+
+option go_package = "./proto";
+
+service TokenRing {
+    rpc RequestToken( TokenRequest ) returns (Acknowledgement);
+    rpc PassToken( Token ) returns (Acknowledgement);
+}
+
+
+message TokenRequest {
+    string node_id = 1;
+}
+
+message Token {
+
+}
+
+
+message Acknowledgement {
+    bool success = 1;
+}
