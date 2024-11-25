@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package cookAssignment5;
+
+option go_package = "./proto";
+
+// Represents a bid placed by a client
+message Bid {
+    int64 client_id = 1;       // Unique identifier for the client
+    int64 bid_amount = 2;      // Amount of the bid
+    bool is_from_leader = 3;   // Indicates if the bid originates from the leader
+}
+
+// Acknowledgment message for bid placement
+message Ack {}
+
+// Contains the result of the auction
+message Result {
+    string result_message = 1; // Detailed result of the auction
+}
+
+// Represents the status of the election process
+message ElectionStatus {
+    int64 server_id = 1;       // ID of the node participating in the election
+}
+
+// Empty message for various operations
+message Empty {}
+
+// Defines the auction system service
+service AuctionService {
+    // Method for placing a bid
+    rpc PlaceBid(Bid) returns (Ack);
+
+    // Method for retrieving the current auction result
+    rpc FetchResult(Empty) returns (Result);
+
+    // Method to initiate the election process
+    rpc StartElection(ElectionStatus) returns (Empty);
+}

@@ -1,0 +1,72 @@
+2024/11/25 22:09:06 Initializing node with IP: 127.0.0.1 and Port: 5001
+2024/11/25 22:09:06 Launching node...
+2024/11/25 22:09:06 Server running on port 5001
+2024/11/25 22:09:07 Initializing node with IP: 127.0.0.1 and Port: 5002
+2024/11/25 22:09:07 Launching node...
+2024/11/25 22:09:07 Server running on port 5002
+2024/11/25 22:09:09 Initializing node with IP: 127.0.0.1 and Port: 5003
+2024/11/25 22:09:09 Launching node...
+2024/11/25 22:09:09 Server running on port 5003
+2024/11/25 22:09:16 Election concluded. Leader: 5001
+2024/11/25 22:09:16 Auction started.
+2024/11/25 22:09:17 Auction started.
+2024/11/25 22:09:19 Auction started.
+2024/11/25 22:09:32 Received bid: ClientID=3, Amount=12, FromLeader=false
+2024/11/25 22:09:32 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:32 Received bid: ClientID=3, Amount=12, FromLeader=false
+2024/11/25 22:09:32 Processing bid as leader: ClientID=3, Amount=12
+2024/11/25 22:09:32 Received bid: ClientID=3, Amount=12, FromLeader=true
+2024/11/25 22:09:32 Processing forwarded bid: ClientID=3, Amount=12
+2024/11/25 22:09:32 Received bid: ClientID=3, Amount=12, FromLeader=true
+2024/11/25 22:09:32 Processing forwarded bid: ClientID=3, Amount=12
+2024/11/25 22:09:34 Received bid: ClientID=4, Amount=12, FromLeader=false
+2024/11/25 22:09:34 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:34 Received bid: ClientID=4, Amount=12, FromLeader=false
+2024/11/25 22:09:34 Processing bid as leader: ClientID=4, Amount=12
+2024/11/25 22:09:34 Received bid: ClientID=4, Amount=12, FromLeader=true
+2024/11/25 22:09:34 Processing forwarded bid: ClientID=4, Amount=12
+2024/11/25 22:09:34 Received bid: ClientID=4, Amount=12, FromLeader=true
+2024/11/25 22:09:34 Processing forwarded bid: ClientID=4, Amount=12
+2024/11/25 22:09:36 Received bid: ClientID=4, Amount=31, FromLeader=false
+2024/11/25 22:09:36 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:36 Received bid: ClientID=4, Amount=31, FromLeader=false
+2024/11/25 22:09:36 Processing bid as leader: ClientID=4, Amount=31
+2024/11/25 22:09:36 Received bid: ClientID=4, Amount=31, FromLeader=true
+2024/11/25 22:09:36 Processing forwarded bid: ClientID=4, Amount=31
+2024/11/25 22:09:36 Received bid: ClientID=4, Amount=31, FromLeader=true
+2024/11/25 22:09:36 Processing forwarded bid: ClientID=4, Amount=31
+2024/11/25 22:09:41 Received bid: ClientID=3, Amount=81, FromLeader=false
+2024/11/25 22:09:41 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:41 Received bid: ClientID=3, Amount=81, FromLeader=false
+2024/11/25 22:09:41 Processing bid as leader: ClientID=3, Amount=81
+2024/11/25 22:09:41 Received bid: ClientID=3, Amount=81, FromLeader=true
+2024/11/25 22:09:41 Processing forwarded bid: ClientID=3, Amount=81
+2024/11/25 22:09:41 Received bid: ClientID=3, Amount=81, FromLeader=true
+2024/11/25 22:09:41 Processing forwarded bid: ClientID=3, Amount=81
+2024/11/25 22:09:42 Received bid: ClientID=3, Amount=91, FromLeader=false
+2024/11/25 22:09:42 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:42 Received bid: ClientID=3, Amount=91, FromLeader=false
+2024/11/25 22:09:42 Processing bid as leader: ClientID=3, Amount=91
+2024/11/25 22:09:42 Received bid: ClientID=3, Amount=91, FromLeader=true
+2024/11/25 22:09:42 Processing forwarded bid: ClientID=3, Amount=91
+2024/11/25 22:09:42 Received bid: ClientID=3, Amount=91, FromLeader=true
+2024/11/25 22:09:42 Processing forwarded bid: ClientID=3, Amount=91
+2024/11/25 22:09:45 Received bid: ClientID=3, Amount=881, FromLeader=false
+2024/11/25 22:09:45 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:09:45 Received bid: ClientID=3, Amount=881, FromLeader=false
+2024/11/25 22:09:45 Processing bid as leader: ClientID=3, Amount=881
+2024/11/25 22:09:45 Received bid: ClientID=3, Amount=881, FromLeader=true
+2024/11/25 22:09:45 Processing forwarded bid: ClientID=3, Amount=881
+2024/11/25 22:09:45 Received bid: ClientID=3, Amount=881, FromLeader=true
+2024/11/25 22:09:45 Processing forwarded bid: ClientID=3, Amount=881
+2024/11/25 22:10:16 Auction ended. No longer active.
+2024/11/25 22:10:17 Auction ended. No longer active.
+2024/11/25 22:10:19 Auction ended. No longer active.
+2024/11/25 22:10:24 Received bid: ClientID=3, Amount=71, FromLeader=false
+2024/11/25 22:10:24 Bid rejected. Auction is not active.
+2024/11/25 22:10:30 Received bid: ClientID=4, Amount=51, FromLeader=false
+2024/11/25 22:10:30 Bid rejected. Auction is not active.
+2024/11/25 22:10:39 Received bid: ClientID=3, Amount=711, FromLeader=false
+2024/11/25 22:10:39 Bid rejected. Auction is not active.
+2024/11/25 22:10:42 Received bid: ClientID=4, Amount=700, FromLeader=false
+2024/11/25 22:10:42 Bid rejected. Auction is not active.
