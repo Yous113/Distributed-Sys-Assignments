@@ -70,3 +70,33 @@
 2024/11/25 22:10:39 Bid rejected. Auction is not active.
 2024/11/25 22:10:42 Received bid: ClientID=4, Amount=700, FromLeader=false
 2024/11/25 22:10:42 Bid rejected. Auction is not active.
+2024/11/25 22:14:25 Initializing node with IP: 127.0.0.1 and Port: 5001
+2024/11/25 22:14:25 Launching node...
+2024/11/25 22:14:25 Server running on port 5001
+2024/11/25 22:14:28 Initializing node with IP: 127.0.0.1 and Port: 5002
+2024/11/25 22:14:28 Launching node...
+2024/11/25 22:14:28 Server running on port 5002
+2024/11/25 22:14:35 Election concluded. Leader: 5001
+2024/11/25 22:14:35 Auction started.
+2024/11/25 22:14:38 Auction started.
+2024/11/25 22:14:54 Initializing node with IP: 127.0.0.1 and Port: 5003
+2024/11/25 22:14:54 Launching node...
+2024/11/25 22:14:54 Server running on port 5003
+2024/11/25 22:14:58 Received bid: ClientID=4, Amount=12123, FromLeader=false
+2024/11/25 22:14:58 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:14:58 Received bid: ClientID=4, Amount=12123, FromLeader=false
+2024/11/25 22:14:58 Processing bid as leader: ClientID=4, Amount=12123
+2024/11/25 22:14:58 Received bid: ClientID=4, Amount=12123, FromLeader=true
+2024/11/25 22:14:58 Processing forwarded bid: ClientID=4, Amount=12123
+2024/11/25 22:14:58 Error propagating bid to peer: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5003: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
+2024/11/25 22:15:04 Auction started.
+2024/11/25 22:15:06 Received bid: ClientID=4, Amount=12918, FromLeader=false
+2024/11/25 22:15:06 Forwarding bid to leader: LeaderID=0
+2024/11/25 22:15:06 Received bid: ClientID=4, Amount=12918, FromLeader=false
+2024/11/25 22:15:06 Processing bid as leader: ClientID=4, Amount=12918
+2024/11/25 22:15:06 Error propagating bid to peer: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5002: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
+2024/11/25 22:15:06 Received bid: ClientID=4, Amount=12918, FromLeader=true
+2024/11/25 22:15:06 Processing forwarded bid: ClientID=4, Amount=12918
+2024/11/25 22:15:28 Node crashed: 5003
+2024/11/25 22:15:35 Auction ended. No longer active.
+2024/11/25 22:16:04 Auction ended. No longer active.

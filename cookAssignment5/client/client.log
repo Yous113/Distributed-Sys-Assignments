@@ -21,3 +21,9 @@
 2024/11/25 22:10:30 Successfully placed bid: 51
 2024/11/25 22:10:39 Successfully placed bid: 711
 2024/11/25 22:10:42 Successfully placed bid: 700
+2024/11/25 22:14:41 Connected to auction server at port 5002
+2024/11/25 22:14:47 Connected to auction server at port 5002
+2024/11/25 22:14:58 Successfully placed bid: 12123
+2024/11/25 22:15:06 Failed to place bid. Reconnecting...
+2024/11/25 22:15:06 Connected to auction server at port 5003
+2024/11/25 22:15:06 Successfully placed bid: 12918
